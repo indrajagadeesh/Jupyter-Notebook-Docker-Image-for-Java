@@ -1,0 +1,2 @@
+to setup password:
+  jupyter notebook --generate-config
