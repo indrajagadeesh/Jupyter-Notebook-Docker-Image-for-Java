@@ -11,4 +11,4 @@ RUN cd /opt \
     && rm -rf ijava-1.3.0.zip \
     &&  python3 install.py --user
 
-CMD jupyter lab --port 9999 --ip=0.0.0.0 --allow-root
+CMD jupyter lab --port 80 --ip=0.0.0.0 --allow-root
